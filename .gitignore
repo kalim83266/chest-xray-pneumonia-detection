@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+*.env
+
+# Model weights
+models/*.pth
+models/*.pt
+
+# Logs
+logs/
+
+# Raw data (do not upload dataset)
+data/raw/
+data/train/
+data/val/
+data/test/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
